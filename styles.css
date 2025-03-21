@@ -250,7 +250,6 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
-
 .gif:hover {
   transform: scale(1.05);
 }
@@ -321,19 +320,19 @@ header {
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
-  --header-color: rgba(98, 0, 234, 0.8);
-  --button-bg-color: rgba(98, 0, 234, 0.8);
+  --header-color: rgba(43, 0, 234, 0.8);
+  --button-bg-color: rgba(43, 0, 234, 0.8);
   --button-text-color: #ffffff;
-  --button-hover-bg-color: rgba(55, 0, 179, 0.9);
+  --button-hover-bg-color: rgba(43, 0, 234, 0.8);
 }
 
 [data-theme="dark"] {
   --bg-color: #000000;
   --text-color: #e0e0e0;
-  --header-color: rgba(187, 134, 252, 0.8);
-  --button-bg-color: rgba(187, 134, 252, 0.8);
+  --header-color: rgba(134, 199, 252, 0.8);
+  --button-bg-color: rgba(134, 199, 252, 0.8);
   --button-text-color: #000000;
-  --button-hover-bg-color: rgba(154, 103, 234, 0.9);
+  --button-hover-bg-color: rgba(134, 199, 252, 0.8);
 }
 /* Estilos para el botón de cambio de tema */
 #themeToggle {
